@@ -1,38 +1,81 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #eee;
+  font-family: sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
+table {
+  border-collapse: separate;
+  width: 90%;
+  margin: 0 auto;
+  border-spacing: 0 12px;
 }
 
-.App-link {
-  color: #61dafb;
+table thead tr {
+  background: #fff;
+}
+table thead tr th {
+  padding: 18px 12px;
+  text-align:  left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tbody tr {
+  background: #fff;
 }
+
+table tbody tr td {
+  padding: 18px 12px;
+  text-align: left;
+}
+
+
+
+
+/* .Newconfirmed{
+  padding: auto;
+  margin: 10px ;
+  margin-left: 15px;
+
+  text-align: center;
+}
+.TotalConfirmed{
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+
+}
+.NewDeaths{
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.TotalDeaths{
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+
+}
+
+.NewRecovered{
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+
+}
+.TotalRecovered{
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+ */
+
